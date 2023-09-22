@@ -1,0 +1,203 @@
+body{
+    background-color:#F0F0F0;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ff6a59;
+}
+
+
+.icon-left-part{
+    color: #ff6a59;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.light.badge-primary {
+    background-color: rgb(255 108 91 / 10%);
+    color: #ff6a59;
+    margin-left: 10px;
+}
+
+/**/
+/*header*/
+.header_left{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+/* filter */
+.main_filter {
+    margin-top: 52px;
+    padding: 12px 26px 36px 26px;
+    border-radius: 0.625rem;
+}
+/* filter body */
+.filter_input {
+    flex: 1;
+    outline: none;
+    color: #6e6e6e;
+    border: 0.5px solid #6e6e6e;
+    border-radius: 0.625rem;
+}
+.btn_filter {
+    font-size: 20px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    background-color:  #ff6a59;
+    color:white;
+    border: none;
+
+}
+.btn_clear {
+    font-size: 20px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    background-color:white;
+    color:#ff6a59;
+    border-color: #ff6a59 ;
+}
+
+/* main users */
+.main__users {
+    border-radius: 0.625rem;
+}
+
+
+.btn_left {
+    font-size: 22px;
+    color:#ff6a59;
+}
+.btn_del {
+    font-weight: 600;
+    font-size: 10px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color:#ff6a59;
+    border-color: #ff6a59;
+    background-color: white;
+
+}
+
+.btndel_hover:hover {
+    color:white;
+
+    background-color:#FF6A59;
+}
+.btn_add {
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color:white;
+    background-color:#ff6a59;
+
+}
+
+
+.users_delete {
+    padding: 9px 38px;
+}
+
+.users_add {
+    padding: 9px;
+    position: relative;
+}
+
+.users_add::after {
+    content :"";
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color:#f75a5b;
+}
+
+.table thead th {
+    color: #777777;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.0313rem;
+}
+
+.table tr td {
+    padding: 16px;
+    font-size: 0.86rem;
+    color: #777777;
+}
+
+.table tr td:nth-child(3) {
+    font-weight: bolder;
+}
+
+.users__check {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.status__icon {
+    color: #56c760 !important;
+}
+
+.ac__shield {
+    background-color: #4CBC9A;
+}
+
+.ac__pen {
+    background-color: #FF6A59;
+}
+
+.ac__trash {
+    background-color: #f75a5b;
+}
+
+.ac__shield,
+.ac__pen,
+.ac__trash {
+    border-radius: 0.5rem;
+    color: var(--white-color);
+}
+
+/* users footer */
+
+.users__footer-page li a {
+    margin: 4px;
+    padding: 0.67rem 1rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #6e6e6e;
+    border: 0.0625rem solid #DBDBDB;
+    border-radius: 0.625rem !important;
+}
+
+.users__footer-page li a:hover{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+/**/
+
+.nav_right{
+   top:0px;
+    right:0px;
+    position:absolute;
+}
+.btn_distance{
+    top:100px;
+    position: absolute;
+    left:25px;
+
+
+}
+.btn_set{
+    height:50px;
+    width:50px;
+    border:none;
+    outline: none;
+    background-color:lightsalmon;
+    
+    
+}

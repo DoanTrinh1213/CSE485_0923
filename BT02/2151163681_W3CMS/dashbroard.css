@@ -1,0 +1,39 @@
+body{
+    background-color:#F0F0F0;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ff6a59;
+}
+
+
+.icon-left-part{
+    color: #ff6a59;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.light.badge-primary {
+    background-color: rgb(255 108 91 / 10%);
+    color: #ff6a59;
+    margin-left: 10px;
+}
+
+.header_left{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.btn{
+    height:50px;
+    width:50px;
+    border:none;
+    outline: none;
+    background-color:lightsalmon;
+}
+.btn-distance{
+    top:20%;
+    position:absolute;
+    
+}
